@@ -1,0 +1,299 @@
+.btn-h1-spacing {
+  margin-top: 18px;
+}
+
+.panel-body {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ul ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu {
+	width: auto;
+	height: auto;
+}
+
+.menu > li > a {
+	background-color: white;
+	/*border-bottom: 1px solid;*/
+  border: none;
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.menu > li > a:hover, .menu > li > .active {
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+  transform: scale(1, 1.05);
+  /*overflow: hidden;*/
+}
+
+.menu > li:last-child > a {
+  border-radius: 0 0 4px 4px;
+}
+
+.menu li ul li a {
+  background: white;
+  display: block;
+  padding: 10px 30px;
+  /*margin-left: 10px;*/
+  text-decoration: none;
+  color: black;
+}
+
+.menu li ul li a:hover {
+  background: #eee;
+}
+
+.aktyv {
+  background: pink !important;
+}
+
+.author-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+  /*background: pink;*/
+}
+
+.author-name {
+	float: left;
+	margin-left: 15px;
+}
+
+.author-name>h4 {
+	margin: 5px 0px;
+
+}
+
+.author-time {
+	font-size: 11px;
+	font-style: italic;
+	color: #aaa;
+}
+
+.comment-content {
+	clear: both;
+	margin-left: 65px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+.comments-title {
+	margin-bottom:45px;
+}
+
+.comments-title>span {
+	margin-right: 15px;
+}
+
+.main-image {
+  height: 300px;
+  /*text-align: center;*/
+  margin: 0 auto;
+}
+
+.align {
+  display: flex;
+  /*flex-direction: row;*/
+  /*justify-content: center;*/
+  /*background: pink;*/
+  /*flex: 1;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  /*flex-grow: 1;*/
+  /*flex-basis: 1;
+  height: 100%;*/
+}
+
+.align2 {
+  display: flex;
+  flex-direction: column;
+  /*background: honeydew;*/
+  flex-grow: 1;
+  height: 100%;
+  justify-content: center;
+}
+
+section {
+  padding: 30px 0 70px 0;
+  display: block;
+  /*overflow: hidden;*/
+  /*clear: both;*/
+}
+
+#special {
+  padding-top: 100px;
+}
+
+#main {
+  /*background: honeydew;*/
+  /*margin-top: 50px;*/
+}
+
+.product {
+  margin-bottom: 30px;
+}
+
+.product-image {
+  /*width: 100%;*/
+  /*height: auto;*/
+
+}
+
+.product-image img {
+  /*background-size: cover;*/
+}
+
+.product-body {
+  border: 1px solid #eee;
+  /*border-top: none;*/
+  padding: 0 10px 10px;
+}
+
+.product-body h3 {
+  margin-top: 10px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.top-margin {
+  margin-top: 30px;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
+
+.navbar-special {
+  background: white;
+  border-bottom: none;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: #eee;
+}
+
+.btn-search {
+  margin-left: -7px;
+}
+
+.admin {
+  background: pink !important;
+}
+
+#footer {
+  background: #eee;
+}
+
+.right {
+  /*background: pink;*/
+}
+
+.middle {
+  /*background: lightyellow;*/
+}
+
+.left {
+  /*background: honeydew;*/
+  /*height: 100%;*/
+}
+
+.bottom {
+  /*background: lightgreen;*/
+  margin-top: 30px;
+}
+
+.follow {
+  font-size: 24px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.follow:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-ul li a {
+  display: inline-block;
+  padding: 5px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.dv {
+
+}
+
+.dv-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #eee;
+
+  &-title {
+    flex: 2;
+  }
+
+  &-select {
+    display: block;
+    width: 100%;
+  }
+
+  &-columns {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-operators {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+
+  &-search {
+    flex: 4;
+    padding-right: 15px;
+  }
+
+  &-input {
+    display: block;
+    width: 100%;
+  }
+
+  &-submit {
+    flex: 1;
+  }
+
+  &-btn {
+    display: block;
+    width: 100%;
+  }
+}

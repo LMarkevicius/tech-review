@@ -1,0 +1,36 @@
+.navbar-dashboard {
+  height: 30px !important;
+  padding: 0;
+  margin: 0;
+  /*background: red;*/
+  /*background: #247BA0;*/
+  color: white !important;
+}
+
+#header {
+  background: #333;
+  color: white;
+  padding: 0px 0 20px;
+}
+
+#header .create {
+  margin-top: 30px;
+}
+
+.dark-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  height: 100vh;
+}
+
+.dark-content .container {
+  /*padding: 20px 0;*/
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumb {
+  margin-top: 20px;
+  background: #ccc;
+}
