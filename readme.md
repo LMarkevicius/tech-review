@@ -1,29 +1,27 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Tech Review Website
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This project was created for learning purposes. The main goal was to learn and create Laravel based functionality.
 
-## About Project
+## Main Features
 
-This project is a tech review website which purpose was to learn. Features:
+* Users (Registration / Login / Authentification)
+* Product CRUD
+* Adding Images
+* Product description can be styled by users
+* Categories CRUD
+* Tags CRUD
+* Relationships
+* Comments
 
-- Users (Registration / Login / Authentification)
-- Product CRUD
-- Adding Images
-- Product description can be stylized
-- Categories CRUD
-- Tags CRUD
-- Relationships
-- Comments
+## Built With
 
-## Project made with
+* [Laravel](https://laravel.com/) - The web framework used
+* [Bootstrap](https://getbootstrap.com/) - CSS framework
 
-This project was created with Laravel framework
+## Authors
+
+* **Lukas Markevičius** - [Portfolio](http://159.89.226.143/)
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
