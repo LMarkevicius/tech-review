@@ -24,4 +24,4 @@ This project was created for learning purposes. The main goal was to learn and c
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LMarkevicius/tech-review/blob/master/LICENSE) file for details
