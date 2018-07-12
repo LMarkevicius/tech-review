@@ -20,7 +20,7 @@ This project was created for learning purposes. The main goal was to learn and c
 
 ## Authors
 
-* **Lukas Markevičius** - [Portfolio](http://159.89.226.143/)
+* **Lukas Markevičius** - [Portfolio](http://lukasmarkevicius.com/)
 
 ## License
 
